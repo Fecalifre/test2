@@ -17,19 +17,19 @@ body {
 	font-weight: 900;
 }
 
-.parallax_img {
+.topo {
 	background-image: url(https://images.unsplash.com/photo-1581388847562-d5a56eec1cfb?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2574&q=80);
-	background-size: cover;
 	background-position: center;
+	background-size: 100% auto;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
+	min-height: 80vh;
 	position: relative;
 	border-bottom: groove 4px rgba(0, 0, 0, 0.45);
-	height: 500px;
-	background-size: 100% auto;
 }
+
 @media screen and (max-width: 768px) {
-	.parallax_img {
+	.topo {
 		background-attachment: inherit;
 	}
 }
